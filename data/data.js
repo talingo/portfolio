@@ -9,7 +9,7 @@ export const localData = {
       url: 'https://talingo.github.io/fulbitoy/',
       repositoryUrl: 'https://github.com/talingo/fulbitoy',
       technologies: ['HTML', 'CSS', 'JS', 'REACT', 'NESTJS', 'TYPESCRIPT'],
-      image: '/assets/images/projects/project1-duo-yellow.png',
+      image: './assets/images/projects/project1-duo-yellow.png',
     },
     {
       _id: '2',
@@ -20,7 +20,7 @@ export const localData = {
       url: 'https://talingo.github.io/fulbitoy/',
       repositoryUrl: 'https://github.com/talingo/fulbitoy',
       technologies: ['HTML', 'CSS', 'JS', 'REACT', 'NESTJS', 'TYPESCRIPT'],
-      image: '/assets/images/projects/project1-duo-yellow.png',
+      image: './assets/images/projects/project1-duo-yellow.png',
     },
     {
       _id: '3',
@@ -31,7 +31,7 @@ export const localData = {
       url: 'https://talingo.github.io/fulbitoy/',
       repositoryUrl: 'https://github.com/talingo/fulbitoy',
       technologies: ['HTML', 'CSS', 'JS', 'REACT', 'NESTJS', 'TYPESCRIPT'],
-      image: '/assets/images/projects/project1-duo-yellow.png',
+      image: './assets/images/projects/project1-duo-yellow.png',
     },
     {
       _id: '4',
@@ -42,7 +42,7 @@ export const localData = {
       url: 'https://talingo.github.io/fulbitoy/',
       repositoryUrl: 'https://github.com/talingo/fulbitoy',
       technologies: ['HTML', 'CSS', 'JS', 'REACT', 'NESTJS', 'TYPESCRIPT'],
-      image: '/assets/images/projects/project1-duo-yellow.png',
+      image: './assets/images/projects/project1-duo-yellow.png',
     },
     {
       _id: '5',
@@ -53,7 +53,7 @@ export const localData = {
       url: 'https://talingo.github.io/fulbitoy/',
       repositoryUrl: 'https://github.com/talingo/fulbitoy',
       technologies: ['HTML', 'CSS', 'JS', 'REACT', 'NESTJS', 'TYPESCRIPT'],
-      image: '/assets/images/projects/project1-duo-yellow.png',
+      image: './assets/images/projects/project1-duo-yellow.png',
     },
     {
       _id: '6',
@@ -64,7 +64,7 @@ export const localData = {
       url: 'https://talingo.github.io/fulbitoy/',
       repositoryUrl: 'https://github.com/talingo/fulbitoy',
       technologies: ['HTML', 'CSS', 'JS', 'REACT', 'NESTJS', 'TYPESCRIPT'],
-      image: '/assets/images/projects/project1-duo-yellow.png',
+      image: './assets/images/projects/project1-duo-yellow.png',
     },
     {
       _id: '7',
@@ -75,7 +75,7 @@ export const localData = {
       url: 'https://talingo.github.io/fulbitoy/',
       repositoryUrl: 'https://github.com/talingo/fulbitoy',
       technologies: ['HTML', 'CSS', 'JS', 'REACT', 'NESTJS', 'TYPESCRIPT'],
-      image: '/assets/images/projects/project1-duo-yellow.png',
+      image: './assets/images/projects/project1-duo-yellow.png',
     },
   ],
 };
