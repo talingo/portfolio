@@ -1,0 +1,136 @@
+/* About me buttons */
+
+#about__skill-set.clicked {
+  animation-duration: 1.3s;
+  animation-name: fadeAndScale;
+  animation-timing-function: cubic-bezier(0.71, 0.55, 0.62, 1.57);
+}
+#about__more-about-me.clicked {
+  animation-duration: 1.3s;
+  animation-name: fadeAndScale;
+  animation-timing-function: cubic-bezier(0.71, 0.55, 0.62, 1.57);
+}
+@keyframes fadeAndScale {
+  from {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+
+  to {
+    rotate: 45deg;
+    opacity: 0;
+    transform: scale(10, 10);
+  }
+}
+
+/* Overlay About me section */
+.overlayRight {
+  display: none;
+  z-index: 400;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 0;
+  animation-name: fillFromSide;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+.overlayRight.activate {
+  display: block;
+}
+.overlayLeft {
+  display: none;
+  z-index: 400;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 0;
+  animation-name: fillFromSide;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+.overlayLeft.activate {
+  display: block;
+}
+
+@keyframes fillFromSide {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* Fade in */
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ========= Project border on hover =========*/
+
+.draw-border {
+  /* box-shadow: inset 0 0 0 4px #58afd1; */
+  /* color: #58afd1; */
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+}
+
+.draw-border::before,
+.draw-border::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.draw-border::before {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+
+.draw-border::after {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+
+.draw-border:hover {
+  color: #eecd28;
+}
+
+.draw-border:hover::before,
+.draw-border:hover::after {
+  border-color: #eecd28;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+
+.draw-border:hover::before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-border:hover::after {
+  transition-delay: 0s, 0.25s, 0s;
+}
